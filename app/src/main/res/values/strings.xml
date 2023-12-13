@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityAndIntentAndroid15</string>
+    <string name="btn_google_text">Google</string>
+    <string name="btn_youtube_text">YouTube</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

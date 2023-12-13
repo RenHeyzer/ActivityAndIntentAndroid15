@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.fragments.SecondFragment">
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_transition"
+        android:text="Go to the ThirdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp" />
+
+    <ImageView
+        android:id="@+id/iv_from_gallery"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>
